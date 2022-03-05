@@ -67,7 +67,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-.advantages-item {
+.advantages-items {
     background-image: url(images/custom_list.svg);
     background-repeat: no-repeat;
     background-size: 30 34;
