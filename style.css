@@ -78,7 +78,7 @@ h1 {
     margin: 4px 0px ;
 }
 
-#advantages-main {
+#advantages-list {
     list-style-type: none;
     display: flex;
     flex-direction: column;
