@@ -5,42 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Натуральный качественный мед - Sanatate Dulce</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Sanatate Dulce</title>
 </head>
 
 <body>
-    <nav>
-        <a href="" id="header-logo"></a>
-        <ul class="header">
-            <li><a href="" class="header-item">о нас</a></li>
-            <li><a href="" class="header-item">каталог</a></li>
-            <li><a href="" class="header-item">этапы работы</a></li>
-            <li><a href="" class="header-item">отзывы</a></li>
-            <li><a href="" class="header-item">контакты</a></li>
-            <li><a href="" class="header-item" id="cart">корзина</a></li>
+    <header class="header">
+        <a href="#" class="header-logo"></a>
+        <ul>
+            <li class="header-item"><a href="#" class="header-link">О нас</a></li>
+            <li class="header-item"><a href="#" class="header-link">Каталог</a></li>
+            <li class="header-item"><a href="#" class="header-link">Этапы работы</a></li>
+            <li class="header-item"><a href="#" class="header-link">Отзывы</a></li>
+            <li class="header-item"><a href="#" class="header-link">Контакты</a></li>
+            <li class="header-item"><a href="#" class="header-link">Корзина</a></li>
         </ul>
-        <a href="" id="header-phone">+373 696 84 444</a>
-    </nav>
-
-    <section>
-        
-        <h1>Самый качественный мёд Молдовы</h1>
-        <p>Мёд является, не только крайне полезным продуктом, но и очень вкусным. Именно поэтому, компания Sanatate
-            dulce предоставляет рынку огромный выбор мёда на любой вкус и цвет.</p>
-
-        <ul id="advantages-list">
-            <li class="advantages-items">Доставка по всей Молдове</li>
-            <li class="advantages-items">Гарантированное качество продукта</li>
-            <li class="advantages-items">Широкий ассортимент товаров</li>
-        </ul>
-        <button><a href="">Заказать</a></button>
-        <a href="" class="text-link">Подписаться</a>
-        <div id="image-main"></div>
-    </section>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <h1 class="hero-head">Самый качественный мёд Молдовы</h1>
+            <p>Мёд является, не&nbsp;только крайне полезным продуктом, но&nbsp;и&nbsp;очень вкусным. Именно поэтому,
+                компания Sanatate dulce предоставляет рынку огромный выбор мёда на&nbsp;любой вкус и&nbsp;цвет.</p>
+            <ul class="advantages">
+                <li class="advantages-item">Доставка по&nbsp;всей Молдове</li>
+                <li class="advantages-item">Гарантированное качество продукта</li>
+                <li class="advantages-item">Широкий ассортимент товаров</li>
+            </ul>
+            <button aria-label="buy">Заказать</button>
+            <a href="#">Подписаться</a>
+        </section>
+        <section class="about-us">
+            <h2>О нас</h2>
+            <p>Компания &laquo;Sanatate dulce&raquo; основана на&nbsp;любви к&nbsp;сельскому хозяйству, людям
+                и&nbsp;пчелам. Основной деятельностью является производство и&nbsp;продажа продуктов пчеловодства.
+                Начиная с&nbsp;2019 года и&nbsp;по&nbsp;сей день, компания радует своих покупателей качеством продуктов!
+                <br>
+                Компания предоставляет огромный каталог товаров, состоящий из&nbsp;большого разнообразия видов меда
+                и&nbsp;прочих продуктов пчеловодства.
+                <br>
+                Также, помимо всего прочего, совершая онлайн покупку, стоимостью от&nbsp;400MDL есть возможнсоть
+                доставки по&nbsp;всей Молдове. По&nbsp;всем интересующим вас вопросам вы&nbsp;можите звонить
+                по&nbsp;указанному ниже номеру.</p>
+        </section>
+        <section class="popular-products">
+            <div class="catalog">
+                <catalog-card>
+                    <image class="catalog-card-image"></image>
+                    <h4></h4>
+                    <p class="catalog-card-price"></p>
+                    <button class="catalog-card-buy"></button>
+                </catalog-card>
+                <catalog-card>
+                    <image class="catalog-card-image"></image>
+                </catalog-card>
+                <catalog-card>
+                    <image class="catalog-card-image"></image>
+                </catalog-card>
+                <catalog-card>
+                    <image class="catalog-card-image"></image>
+                </catalog-card>
+            </div>
+            <a href="#">Смотреть весь Каталог</a>
+        </section>
+    </main>
 </body>
 
 </html>
