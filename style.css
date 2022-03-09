@@ -1,110 +1,132 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+button {
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media (min-width: 998px) {
-    a, h1, h2, h3, p, button, li {
-        font-family: 'Montserrat', sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+@media screen and (min-width: 998px) {
+
+    section {
+        padding: 0 32px;
+        margin-bottom: 120px;
     }
 
     .container {
-        width: 1200px;
+        max-width: 1200px;
         margin: 0 auto;
-        padding: 1rem;
+        margin-top: 100px;
     }
 
     .header {
+        width: 100%;
         box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.05);
         background-color: #fff;
         position: fixed;
         top: 0;
-        width: 100%;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 32px;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .header-logo {
         content: url(images/Logo.svg);
-        margin: 0.5rem 0;
     }
 
     .header-list {
         display: flex;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: nowrap;
         list-style-type: none;
-        width: 1200px;
-        margin: 0 auto;
-        justify-content: flex-start;
+        color: rgba(1, 10, 57, 1);
+        font-weight: 600;
+        align-items: center;
     }
 
     .header-item {
-        margin: 0.5rem 0;
-        text-decoration: none;
-        margin-right: 3rem;
+        margin-left: 32px;
     }
 
     .header-link {
+        color: inherit;
+        height: 100%;
         text-decoration: none;
-        display: inline-block;
-        color: rgba(1, 10, 57, 1);
-        font-size: 1rem;
-        font-weight: 600;
     }
 
-    section {
-        margin-top: 8rem;
+    .hero {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 32px;
     }
 
-    .hero-image {
-        float: right;
-        padding: 1rem;
+    .hero-col-1{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        display: block;
+        height: 100%;
+        width: 100%;
     }
 
     h1 {
         font-weight: bold;
-        font-size: 4rem;
-        line-height: 4rem;
-        color: rgba(1, 10, 57, 1);
+        font-size: 56px;
+        line-height: 48px;  
+        color: #010A39;
     }
 
     .hero-par {
-        font-size: 1rem;
-        line-height: 1.3rem;
-        color: rgba(1, 10, 57, 1);
-        margin-top: 1.5rem;
-    }
-
-    .advantages-list {
-        margin-top: 1.5rem;
-        list-style-type: none;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #010A39;
+        margin-top: 32px;
     }
 
     .advantages-item {
-        padding-left: 2.5rem;
-        margin-top: 0.5rem;
         background: url(images/custom_list.svg) no-repeat;
-        line-height: 2.2rem;
-        color: rgba(1, 10, 57, 1);
-        font-size: 1rem;
+        padding-left: 40px;
+        margin-top: 10px;
+    }
+
+    .advantages-list {
+        margin-top: 32px;
+        list-style-type: none;
+        line-height: 36px;
+    }
+
+    .hero-buttons {
+        margin-top: 32px;
     }
 
     .button-link {
-        box-shadow: 0px 16px 30px rgba(248, 143, 1, 0.35);
-        border-radius: 10px;
+        padding: 16px 48px;
         background-color: #F88F01;
-        padding: 1rem 3rem;
-        margin-top: 2rem;
+        border-radius: 10px;
+        margin-right: 32px;
         display: inline-block;
-        color: #fff;
         text-decoration: none;
         font-weight: bold;
+        color: #fff;
+        box-shadow: 0px 16px 30px rgba(248, 143, 1, 0.35);
     }
+
     .outline-link {
         text-decoration: none;
-        color: rgba(1, 10, 57, 1);
-        margin-left: 1rem;
+        color: #010A39;
     }
 }
-

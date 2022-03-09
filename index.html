@@ -8,38 +8,48 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Sanatate Dulce</title>
 </head>
 
 <body>
     <header class="header">
-        <ul class="header-list">
-            <li class="header-item"><a href="#" class="header-logo"></a></li>
-            <li class="header-item"><a href="#" class="header-link">О нас</a></li>
-            <li class="header-item"><a href="#" class="header-link">Каталог</a></li>
-            <li class="header-item"><a href="#" class="header-link">Этапы работы</a></li>
-            <li class="header-item"><a href="#" class="header-link">Отзывы</a></li>
-            <li class="header-item"><a href="#" class="header-link">Контакты</a></li>
-            <li class="header-item"><a href="#" class="header-link">Корзина</a></li>
-        </ul>
+        <div class="header-container">
+            <a href="#" class="header-logo"></a>
+            <ul class="header-list">
+                <li class="header-item"><a href="#" class="header-link">О нас</a></li>
+                <li class="header-item"><a href="#" class="header-link">Каталог</a></li>
+                <li class="header-item"><a href="#" class="header-link">Этапы работы</a></li>
+                <li class="header-item"><a href="#" class="header-link">Отзывы</a></li>
+                <li class="header-item"><a href="#" class="header-link">Контакты</a></li>
+                <li class="header-item"><a href="#" class="header-link">Корзина</a></li>
+            </ul>
+        </div>
     </header>
-    
+
     <main class="container">
         <section class="hero">
-            <img class="hero-image" src="images/main_page_image.png" alt="">
-            <h1 class="hero-head">Самый качественный мёд Молдовы</h1>
-            <p class="hero-par">Мёд является, не&nbsp;только крайне полезным продуктом, но&nbsp;и&nbsp;очень вкусным. Именно поэтому,
-                компания Sanatate dulce предоставляет рынку огромный выбор мёда на&nbsp;любой вкус и&nbsp;цвет.</p>
-            <ul class="advantages-list">
-                <li class="advantages-item">Доставка по&nbsp;всей Молдове</li>
-                <li class="advantages-item">Гарантированное качество продукта</li>
-                <li class="advantages-item">Широкий ассортимент товаров</li>
-            </ul>
-            <a href="" class="button-link">Заказать</a>
-            <a href="#" class="outline-link">Подписаться</a>
+            <div class="hero-col-1">
+                <h1 class="hero-head">Самый качественный мёд Молдовы</h1>
+                <p class="hero-par">Мёд является, не&nbsp;только крайне полезным продуктом, но&nbsp;и&nbsp;очень
+                    вкусным.
+                    Именно поэтому,
+                    компания Sanatate dulce предоставляет рынку огромный выбор мёда на&nbsp;любой вкус и&nbsp;цвет.</p>
+                <ul class="advantages-list">
+                    <li class="advantages-item">Доставка по&nbsp;всей Молдове</li>
+                    <li class="advantages-item">Гарантированное качество продукта</li>
+                    <li class="advantages-item">Широкий ассортимент товаров</li>
+                </ul>
+                <div class="hero-buttons">
+                    <a href="" class="button-link">Заказать</a>
+                    <a href="#" class="outline-link">Подписаться</a>
+                </div>
+            </div>
+            <div class="hero-col-2">
+                <img class="hero-image" src="images/main_page_image.png" alt="">
+            </div>
         </section>
-        
+
         <section class="about-us">
             <h2>О нас</h2>
             <p>Компания &laquo;Sanatate dulce&raquo; основана на&nbsp;любви к&nbsp;сельскому хозяйству, людям
@@ -51,10 +61,11 @@
                 <br>
                 Также, помимо всего прочего, совершая онлайн покупку, стоимостью от&nbsp;400MDL есть возможнсоть
                 доставки по&nbsp;всей Молдове. По&nbsp;всем интересующим вас вопросам вы&nbsp;можите звонить
-                по&nbsp;указанному ниже номеру.</p>
-                <a href="">Читать дальше</a>
+                по&nbsp;указанному ниже номеру.
+            </p>
+            <a href="">Читать дальше</a>
         </section>
-        
+
         <section class="popular-products">
             <div class="catalog">
                 <h2>Популярные продукты</h2>
@@ -85,7 +96,7 @@
             </div>
             <a href="#">Смотреть весь Каталог</a>
         </section>
-        
+
         <section class="steps">
             <h2>Этапы работы</h2>
             <p>Как происходит процесс оформления заявки, доставки и оплаты:</p>
