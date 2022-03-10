@@ -1,134 +1,211 @@
-button {
-    font-family: 'Montserrat', sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
+button { 
     font-family: 'Montserrat', sans-serif; 
-}
+} 
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+} 
+body { 
+    font-family: 'Montserrat', sans-serif;  
+} 
 
+@media screen and (min-width: 998px) { 
+    section { 
+        padding: 0 32px; 
+        margin-bottom: 120px; 
+    } 
+    .container { 
+        max-width: 1200px; 
+        margin: 0 auto; 
+        margin-top: 180px; 
+    } 
+    .header { 
+        width: 100%; 
+        box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.05); 
+        background-color: #fff; 
+        position: fixed; 
+        top: 0; 
+    } 
+    .header-container { 
+        display: flex; 
+        justify-content: space-between; 
+        padding: 8px 32px; 
+        max-width: 1200px; 
+        margin: 0 auto; 
+    } 
+    .header-logo { 
+        content: url(images/Logo.svg); 
+    } 
+    .header-list { 
+        display: flex; 
+        list-style-type: none; 
+        color: rgba(1, 10, 57, 1); 
+        font-weight: 600; 
+        align-items: center; 
+    } 
+    .header-item { 
+        margin-left: 32px; 
+    } 
+    .header-link { 
+        color: inherit; 
+        height: 100%; 
+        text-decoration: none; 
+    } 
+    .hero { 
+        display: grid; 
+        grid-template-columns: 50% 50%; 
+        gap: 32px; 
+    } 
+    .hero-col-1{ 
+        justify-content: center; 
+        display: flex; 
+        flex-direction: column; 
+    } 
+ 
+      
+    .hero-image { 
+        display: block; 
+        height: 100%; 
+        width: 100%; 
+        object-fit: cover; 
+        background-size: cover; 
+        border-radius: 10px; 
+    } 
+ 
+    h1 { 
+        font-weight: bold; 
+        font-size: 56px; 
+        line-height: 48px;   
+        color: #010A39; 
+    } 
 
-@media screen and (min-width: 992px) {
+    .advantages-item { 
+        background: url(images/custom_list.svg) no-repeat; 
+        padding-left: 40px; 
+        margin-top: 10px; 
+    } 
+    .advantages-list { 
+        margin-top: 32px; 
+        list-style-type: none; 
+        line-height: 36px; 
+    } 
+    .hero-buttons { 
+        margin-top: 32px; 
+    } 
+    .button-link { 
+        padding: 16px 48px; 
+        background-color: #F88F01; 
+        border-radius: 10px; 
+        margin-right: 32px; 
+        display: inline-block; 
+        text-decoration: none; 
+        font-weight: bold; 
+        color: #fff; 
+        box-shadow: 0px 16px 30px rgba(248, 143, 1, 0.35); 
+    } 
+    .outline-link { 
+        text-decoration:underline; 
+        color: #010A39; 
+        text-decoration-skip-ink: none; 
+        margin-top: 32px; 
+        display: inline-block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    } 
+ 
+    .about-us { 
+        display: grid; 
+        grid-template-columns: 2fr 1fr; 
+        gap: 32px; 
+    } 
+ 
+    h2 { 
+        font-weight: bold; 
+        font-size: 36px; 
+        line-height: 48px;   
+        color: #010A39; 
+    } 
+ 
+    p { 
+        font-weight: normal; 
+        font-size: 16px; 
+        line-height: 24px; 
+        color: #010A39; 
+        margin-top: 32px; 
+    } 
+ 
+    .about-us-image { 
+        display: block; 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        border-radius: 10px; 
+    } 
 
-    section {
-        margin-bottom: 120px;
+    .button-interact {
+        border: 0;
+        padding: 16px 0;
+        width: 100%; 
+        background-color: #F88F01; 
+        border-radius: 10px;  
+        display: inline-block; 
+        text-decoration: none; 
+        font-weight: bold; 
+        color: #fff; 
+        box-shadow: 0px 16px 30px rgba(248, 143, 1, 0.35);
     }
 
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        margin-top: 100px;
-        padding: 0 32px;
-    }
-
-    .header {
-        width: 100%;
-        box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.05);
-        background-color: #fff;
-        position: fixed;
-        top: 0;
-    }
-
-    .header-container {
-        display: flex;
-        justify-content: space-between;
-        padding: 8px 32px;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .header-logo {
-        content: url(images/Logo.svg);
-    }
-
-    .header-list {
-        display: flex;
-        list-style-type: none;
-        color: rgba(1, 10, 57, 1);
-        font-weight: 600;
-        align-items: center;
-    }
-
-    .header-item {
-        margin-left: 32px;
-    }
-
-    .header-link {
-        color: inherit;
-        height: 100%;
-        text-decoration: none;
-    }
-
-    .hero {
+    .catalog {
         display: grid;
-        grid-template-columns: 1fr 1fr;
         gap: 32px;
+        grid-template-columns: repeat(4,1fr);
+        margin-top: 32px;
     }
 
-    .hero-col-1{
-        justify-content: center;
+    h3 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #010A39;
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    .catalog-card-price{
+        font-size: 14px;
+        color: rgba(113, 113, 113, 1);
+        margin-top: 8px;
+        margin-bottom: 24px;
+    }
+
+    .catalog-card {
+        background-color: #fff;
+        border-radius: 15px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.05);
+        padding: 16px;
     }
 
-    .hero-image {
-        display: block;
+    .catalog-card-img {
         width: 100%;
-        height: 100%;
         object-fit: cover;
         border-radius: 10px;
     }
 
-    h1 {
-        font-weight: bold;
-        font-size: 56px;
-        line-height: 48px;  
-        color: #010A39;
+    .popular-products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .hero-par {
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        color: #010A39;
-        margin-top: 32px;
-    }
-
-    .advantages-item {
-        background: url(images/custom_list.svg) no-repeat;
-        padding-left: 40px;
-        margin-top: 10px;
-    }
-
-    .advantages-list {
-        margin-top: 32px;
-        list-style-type: none;
-        line-height: 36px;
-    }
-
-    .hero-buttons {
-        margin-top: 32px;
-    }
-
-    .button-link {
-        padding: 16px 48px;
-        background-color: #F88F01;
-        border-radius: 10px;
-        margin-right: 32px;
-        display: inline-block;
-        text-decoration: none;
-        font-weight: bold;
-        color: #fff;
-        box-shadow: 0px 16px 30px rgba(248, 143, 1, 0.35);
-    }
-
-    .outline-link {
-        text-decoration: none;
-        color: #010A39;
+    .label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
