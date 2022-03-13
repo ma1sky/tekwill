@@ -240,4 +240,44 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
+    .reviews-container { 
+        display: grid; 
+        grid-template-columns: repeat(4, 2fr);
+    } 
+
+    .reviews-img {
+        object-fit: cover;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        align-items: flex-start;
+    }
+
+    .reviews-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 16px;
+    }
+
+    .reviews-content {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .commentators {
+        display: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
