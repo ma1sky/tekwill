@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
 button {
     font-family: 'Montserrat', sans-serif;
 }
@@ -19,9 +22,15 @@ body {
     }
 
     .container {
-        max-width: 1200px;
+        max-width: 1500px;
         margin: 0 auto;
-        margin-top: 180px;
+    }
+
+    .cart {
+        content: url(images/cart.svg);
+        height: 35px;
+        object-fit: cover;
+        color: #010A39;
     }
 
     .header {
@@ -39,6 +48,7 @@ body {
         padding: 8px 32px;
         max-width: 1200px;
         margin: 0 auto;
+        align-items: center;
     }
 
     .header-logo {
@@ -59,7 +69,6 @@ body {
 
     .header-link {
         color: inherit;
-        height: 100%;
         text-decoration: none;
     }
 
@@ -67,6 +76,8 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 32px;
+        padding: 120px 32px;
+        height: 100vh;
     }
 
     .hero-col-1 {
@@ -86,9 +97,10 @@ body {
     }
 
     h1 {
+        font-family: 'Playfair Display', serif;
         font-weight: bold;
-        font-size: 56px;
-        line-height: 48px;
+        font-size: 72px;
+        line-height: 72px;
         margin-bottom: 32px;
         color: #010A39;
     }
@@ -138,6 +150,7 @@ body {
     }
 
     h2 {
+        font-family: 'Playfair Display', serif;
         font-weight: bold;
         font-size: 36px;
         line-height: 48px;
@@ -187,7 +200,6 @@ body {
         font-size: 20px;
         line-height: 24px;
         color: #010A39;
-        text-align: center;
         margin-top: 24px;
     }
 
@@ -242,6 +254,7 @@ body {
         flex-direction: column;
         align-items: center;
         padding: 16px;
+        text-align: center;
     }
 
     .steps-par {
@@ -278,6 +291,7 @@ body {
         border-radius: 50%;
         height: 60px;
         width: 60px;
+        margin-right: 16px;
     }
 
     .feedback-card {
@@ -306,10 +320,6 @@ body {
         align-items: center;
     }
 
-    .feedback-img {
-        margin-right: 16px;
-    }
-
     .time {
         font-weight: 500;
         font-size: 12px;
@@ -332,20 +342,13 @@ body {
     .contacts-par {
         color: rgba(113, 113, 113, 1);
         margin-top: 16px;
-        margin-bottom: 24px;
     }
 
-    .map1 {
+    .map {
         width: 100%; 
         height: 100%; 
         border-style: 0;
         border-radius: 10px; 
+        border: 0;
     }
-
-    .contacts-container {
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-    }
-
 }
