@@ -12,21 +12,21 @@
 <body>
     <header class="header">
         <div class="header-container">
-            <a href="#" class="header-logo"></a>
+            <a href="index.html" class="header-logo"></a>
             <ul class="header-list">
-                <li class="header-item"><a href="#" class="header-link">о нас</a></li>
-                <li class="header-item"><a href="#" class="header-link">каталог</a></li>
-                <li class="header-item"><a href="#" class="header-link">этапы работы</a></li>
-                <li class="header-item"><a href="#" class="header-link">отзывы</a></li>
-                <li class="header-item"><a href="#" class="header-link">контакты</a></li>
+                <li class="header-item"><a href="#about-us" class="header-link">о нас</a></li>
+                <li class="header-item"><a href="#catalog" class="header-link">каталог</a></li>
+                <li class="header-item"><a href="#steps" class="header-link">этапы работы</a></li>
+                <li class="header-item"><a href="#feedback" class="header-link">отзывы</a></li>
+                <li class="header-item"><a href="#contacts" class="header-link">контакты</a></li>
             </ul>
-            <a href="#" class="header-link cart"></a>
+            <a href="catalog.html" class="header-link cart"></a>
         </div>
     </header>
 
     <main class="container">
         <section class="hero">
-            <div class="hero-col-1">
+            <div class="hero__col1">
                 <h1>Самый качественный мёд Молдовы</h1>
                 <p>Мёд является, не&nbsp;только крайне полезным продуктом, но&nbsp;и&nbsp;очень
                     вкусным.
@@ -37,21 +37,21 @@
                     <li class="advantages-item">Гарантированное качество продукта</li>
                     <li class="advantages-item">Широкий ассортимент товаров</li>
                 </ul>
-                <div class="hero-buttons">
-                    <a href="" class="button-link">Заказать</a>
-                    <a href="#" class="outline-link">Подписаться</a>
+                <div class="hero__buttons">
+                    <a href="#catalog" class="button-link hero-button">Заказать</a>
+                    <a href="#subscribe" class="outline-link">Подписаться</a>
                 </div>
             </div>
-            <div class="hero-col-2">
-                <img class="hero-image" src="images/hero_image.png" alt="">
+            <div class="hero__col2">
+                <img class="hero-image image" src="images/hero_image.png" alt="">
             </div>
         </section>
 
         <section class="about-us">
-            <div class="au-col-2third">
-                <img class="about-us-image" src="images/about-us-image.png" alt="">
+            <div class="about-us__col-2third">
+                <img class="about-us-image image" src="images/about-us-image.png" alt="">
             </div>
-            <div class="au-col-1third">
+            <div class="abous-us__col-1third">
                 <h2>О нас</h2>
                 <p>Компания &laquo;Sanatate dulce&raquo; основана на&nbsp;любви к&nbsp;сельскому
                     хозяйству, людям
@@ -62,7 +62,7 @@
                     Компания предоставляет огромный каталог товаров, состоящий из&nbsp;большого разнообразия видов меда
                     и&nbsp;прочих продуктов пчеловодства.
                 </p>
-                <a href="" class="outline-link">Читать дальше</a>
+                <a href="" class="outline-link under-block-link">Читать дальше</a>
             </div>
 
         </section>
@@ -103,7 +103,7 @@
                     <button class="button-interact">В корзину</button>
                 </div>
             </div>
-            <a href="#" class="outline-link">Смотреть весь каталог</a>
+            <a href="#" class="outline-link under-block-link">Смотреть весь каталог</a>
         </section>
 
         <section class="steps">
@@ -228,7 +228,7 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="outline-link">Смотреть все отзывы</a>
+            <a href="" class="outline-link under-block-link">Смотреть все отзывы</a>
         </section>
 
         <section class="contacts">
@@ -236,37 +236,44 @@
 
             <iframe class="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46607.064365267346!2d28.99055925137464!3d47.47006317806671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cbfa0053e169c5%3A0x6cc06db419d44c1e!2z0JHRg9C70LDQtdGI0YLRiywg0JzQvtC70LTQsNCy0LjRjw!5e0!3m2!1sru!2s!4v1647177628642!5m2!1sru!2s"></iframe>
-
-
-
             <div class="contacts-container">
                 <h2>Контакты</h2>
-                <div class="contacts-card">
-                    <p class="contacts-par">Директор:</p>
-                    <h4>Ион Тудореану</h3>
+                <div class="contacts-info">
+                    <div class="icon1 icon"></div>
+                    <div class="contacts-text">
+                        <p class="contacts-par">Директор:</p>
+                        <h4>Ион Тудореану</h3>
+                    </div>
                 </div>
 
-                <div class="contacts-card">
-                    <p class="contacts-par">Номер телефона:</p>
-                    <h4>+373&nbsp;696&nbsp;84&nbsp;444</h3>
+                <div class="contacts-info">
+                    <div class="icon2 icon"></div>
+                    <div class="contacts-text">
+                        <p class="contacts-par">Номер телефона:</p>
+                        <h4>+373&nbsp;696&nbsp;84&nbsp;444</h3>
+                    </div>
                 </div>
 
-                <div class="contacts-card">
-                    <p class="contacts-par">Электронная почта:</p>
-                    <h4>ion.tudoreanu1@gmail.com</h3>
+                <div class="contacts-info">
+                    <div class="icon3 icon"></div>
+                    <div class="contacts-text">
+                        <p class="contacts-par">Электронная почта:</p>
+                        <h4>ion.tudoreanu1@gmail.com</h3>
+                    </div>
                 </div>
 
-                <div class="contacts-card">
-                    <p class="contacts-par">Адрес:</p>
-                    <h4>Коммуна Булаешты, село Бочковцы Бричанского района</h3>
+                <div class="contacts-info">
+                    <div class="icon4 icon"></div>
+                    <div class="contacts-text">
+                        <p class="contacts-par">Адрес:</p>
+                        <h4>Коммуна Булаешты, село Бочковцы Бричанского района</h3>
+                    </div>
                 </div>
 
-                <div class="contacts-card">
-                    <p class="contacts-par">Социальные сети:</p>
-                    <img src="images/facebook.svg"> <a href="https://www.facebook.com/SanatateDulceSRL/"></a> </img>
-                    <img src="images/whatsapp.svg"> </img>
+                <div class="contacts-info">
                 </div>
             </div>
+
         </section>
     </main>
 </body>
