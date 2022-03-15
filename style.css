@@ -19,10 +19,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 section {
     padding: 0 32px;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
 }
 
 .container {
@@ -349,11 +348,6 @@ p {
     min-height: 300px;
 }
 
-.feedback {
-    display: flex;
-    align-items: center;
-}
-
 .time {
     font-weight: 500;
     font-size: 12px;
@@ -472,6 +466,19 @@ input {
     border-radius: 20px;
 }
 
+/*----------------Footer---------------------------*/
+
+.line {
+    width: 100%;
+    border-bottom: 4px solid #F1F1F1;
+    margin: 16px  0;
+}
+
+footer {
+    padding: 0 32px;
+    padding-bottom: 16px;
+}
+
 @media screen and (max-width:1200px){
     h1 {
         font-size: 56px;
@@ -495,6 +502,10 @@ input {
         grid-template-columns: 1fr;
     }
 
+    .popular-products {
+        text-align: center;
+    }
+
     .catalog {
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
@@ -510,10 +521,6 @@ input {
 
     h3 {
         font-size: 16px;
-    }
-
-    h2 {
-        text-align: center;
     }
 
     section {
