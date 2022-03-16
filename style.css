@@ -456,15 +456,12 @@ input {
 }
 
 .subscribe-container {
-    background: linear-gradient(360deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9405) 0.01%, rgba(255, 255, 255, 0.8265) 100%), url(about-us-image.png);
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9405) 0.01%, rgba(255, 255, 255, 0.8265) 100%), url(images/about-us-image.png);
+    background-size: cover;
+    border-radius: 20px;
     padding: 64px 32px;
 }
 
-.bgfill {
-    background-image: url(images/about-us-image.png);
-    background-size: cover;
-    border-radius: 20px;
-}
 
 /*----------------Footer---------------------------*/
 
