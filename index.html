@@ -14,25 +14,25 @@
 <body>
     <header class="header">
         <div class="header-container">
-            <a href="#" class="header-logo"></a>
+            <a href="#hero" class="header-logo"></a>
             <nav class="header-menu">
-            <ul class="header-list">
-                <li class="header-item"><a href="#" class="header-link">о нас</a></li>
-                <li class="header-item"><a href="#" class="header-link">каталог</a></li>
-                <li class="header-item"><a href="#" class="header-link">этапы работы</a></li>
-                <li class="header-item"><a href="#" class="header-link">отзывы</a></li>
-                <li class="header-item"><a href="#" class="header-link">контакты</a></li>
-            </ul>
+                <ul class="header-list">
+                    <li class="header-item"><a href="#about-us" class="header-link">о нас</a></li>
+                    <li class="header-item"><a href="#popular-products" class="header-link">каталог</a></li>
+                    <li class="header-item"><a href="#steps" class="header-link">этапы работы</a></li>
+                    <li class="header-item"><a href="#feedback" class="header-link">отзывы</a></li>
+                    <li class="header-item"><a href="#contacts" class="header-link">контакты</a></li>
+                </ul>
             </nav>
             <a href="#" class="header-link cart"></a>
-            <div class="header-burger"> 
+            <div class="header-burger">
                 <span></span>
             </div>
         </div>
     </header>
 
     <main class="container">
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="hero__col1">
                 <h1>Самый качественный мёд Молдовы</h1>
                 <p>Мёд является, не&nbsp;только крайне полезным продуктом, но&nbsp;и&nbsp;очень
@@ -54,7 +54,7 @@
             </div>
         </section>
 
-        <section class="about-us">
+        <section class="about-us" id="about-us">
             <div class="about-us__col-2third">
                 <img class="about-us-image image" src="images/about-us-image.png" alt="">
             </div>
@@ -74,7 +74,7 @@
 
         </section>
 
-        <section class="popular-products">
+        <section class="popular-products" id="popular-products">
             <h2>Популярные продукты</h2>
             <div class="catalog">
                 <div class="catalog-card">
@@ -113,7 +113,7 @@
             <a href="#" class="outline-link under-block-link">Смотреть весь каталог</a>
         </section>
 
-        <section class="steps">
+        <section class="steps" id="steps">
             <h2>Этапы работы</h2>
             <p class="steps-par">Как происходит процесс оформления заявки, доставки и оплаты:</p>
             <div class="steps-container">
@@ -141,7 +141,7 @@
             </div>
         </section>
 
-        <section class="feedback">
+        <section class="feedback" id="feedback">
             <h2>Отзывы</h2>
             <div class="feedback-container">
                 <div class="feedback-area">
@@ -238,7 +238,7 @@
             <a href="" class="outline-link under-block-link">Смотреть все отзывы</a>
         </section>
 
-        <section class="contacts">
+        <section class="contacts" id="contacts">
 
 
             <div class="map" style="position:relative;overflow:hidden;"><a
@@ -301,28 +301,60 @@
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer class="footer container">
         <div class="line"></div>
-        <div class="footer-logo"></div>
-        <ul class="footer-nav-list">
-            <li class="footer-nav-item">Навигация:</li>
-            <li class="footer-nav-item">Главная</li>
-            <li class="footer-nav-item">Каталог</li>
-            <li class="footer-nav-item">Корзина</li>
-        </ul>
-        <ul class="footer-contacts-list">
-            <li class="footer-contacts-item"></li>
-            <li class="footer-contacts-item"></li>
-            <li class="footer-contacts-item"></li>
-        </ul>
+        <div class="footer-content">
+
+            <div class="footer-logo"></div>
+
+            <ul class="footer-nav-list">
+                <li class="footer-nav-item">
+                    <h4>Навигация:</h4>
+                </li>
+
+                <li class="footer-nav-item">
+                    <a class="footer-link" href="#main">Главная</a>
+                </li>
+
+                <li class="footer-nav-item">
+                    <a class="footer-link" href="#catalog">Каталог</a>
+                </li>
+
+                <li class="footer-nav-item">
+                    <a class="footer-link" href="#cart">Корзина</a>
+                </li>
+            </ul>
+
+            <ul class="footer-contacts-list">
+                <li class="footer-contacts-item">
+                    <h4>Контакты:</h4>
+                </li>
+                <li class="footer-contacts-item">
+                    <div class="icon2 footer-icon"></div>
+                    <p class="footer-par">+373 696 84 444</p>
+                </li>
+
+                <li class="footer-contacts-item">
+                    <div class="icon3 footer-icon"></div>
+                    <p class="footer-par">ion.tudoreanu1@gmail.com</p>
+                </li>
+
+                <li class="footer-contacts-item">
+                    <div class="icon4 footer-icon"></div>
+                    <p class="footer-par">Коммуна Булаешты, село Бочковцы</p>
+                </li>
+            </ul>
+
+        </div>
         <div class="line"></div>
         <p>Данный веб-сайт был выполнен в рамках конкурса «Юные послы „Теквилл”», организованного проектом «„Теквилл” в
             каждой школе» и не обязательно отражает мнение проекта.</p>
     </footer>
+
     <script src="main.js"></script>
 </body>
-
 
 </html>
