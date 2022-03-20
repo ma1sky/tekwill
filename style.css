@@ -255,6 +255,14 @@ p {
     gap: 32px;
 }
 
+
+/*-------------------Catalog-----------------------------------*/
+.catalog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
 /*-------------------Popular products-----------------------*/
 
 .catalog {
