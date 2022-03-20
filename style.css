@@ -203,6 +203,11 @@ p {
     transition: 0.05s;
 }
 
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
 .cart {
     content: url(images/cart.svg);
     height: 35px;
