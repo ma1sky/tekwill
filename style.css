@@ -163,6 +163,7 @@ p {
 
 .header-logo {
     content: url(images/Logo.svg);
+    height: 55px;
 }
 
 .header-list {
@@ -492,7 +493,7 @@ input {
 .line {
     width: 100%;
     border-bottom: 4px solid #F1F1F1;
-    margin: 16px 0;
+    margin: 32px 0;
 }
 
 footer {
@@ -524,6 +525,7 @@ footer {
 
 .footer-logo {
     content: url(images/Logo.svg);
+    height: 90px;
 }
 
 .footer-icon {
