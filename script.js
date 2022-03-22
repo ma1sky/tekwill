@@ -27,6 +27,9 @@ $(document).ready(function() {
    $("a.header-link").removeClass('activ-list');
    $(this).addClass('activ-list')
  })
+ $('a.header-logo').click(function () {
+  $("a.header-link").removeClass('activ-list');
+ });
  });
 
 
