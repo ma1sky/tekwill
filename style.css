@@ -678,6 +678,7 @@ footer {
         width: 30px;
         height: 20px;
         z-index: 3;
+        margin-left: 20px;
         content: url(images/burger-img.svg);
     }
 
@@ -754,8 +755,6 @@ footer {
         object-fit: cover;
         color: #010A39;
         z-index: 6;
-        position: fixed;
-        right: 90px;
     }
 
 }
