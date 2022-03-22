@@ -675,15 +675,6 @@ footer {
         content: url(images/burger-activ-img.svg);
     }
 
-  /*  .header-burger:before {
-        top: 0;
-    }
-
-    .header-burger:after {
-        bottom: 0;
-    }*/
-
-    
 
     .header-menu {
         position: fixed;
