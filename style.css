@@ -269,6 +269,7 @@ p {
     align-items: center;
     margin-top: 100px;
 }
+
 /*-------------------Popular products-----------------------*/
 
 .catalog {
@@ -548,7 +549,7 @@ footer {
 }
 
 .footer-link:active {
-    color:#E5890B;
+    color: #E5890B;
     transition: 0.02s;
 }
 
@@ -569,6 +570,19 @@ footer {
 @media screen and (max-width:767px) {
     .footer-content {
         flex-direction: column;
+    }
+
+    .about-us {
+        grid-template-areas: 'col1third'
+            'col2third';
+    }
+
+    .abous-us__col-1third {
+        grid-area: col1third;
+    }
+
+    .abous-us__col-2third {
+        grid-area: col2third;
     }
 
     .footer-nav-list,
@@ -656,7 +670,8 @@ footer {
     .header-link {
         font-size: 24px;
     }
-/*------------------------*/
+
+    /*------------------------*/
     .header-burger {
         display: block;
         position: relative;
@@ -687,7 +702,7 @@ footer {
         transition: all 0.3s ease 0s;
         overflow: auto;
         z-index: 1;
-        
+
 
     }
 
@@ -723,7 +738,7 @@ footer {
 
 
 
-/*--------------*/
+    /*--------------*/
     body.lock {
         overflow: hidden;
     }
