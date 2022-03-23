@@ -469,9 +469,7 @@ input {
     justify-content: space-between;
 }
 
-.subscribe-input {
-    margin-right: 16px;
-}
+
 
 .input {
     border-radius: 10px;
@@ -492,6 +490,11 @@ input {
     background-size: cover;
     border-radius: 20px;
     padding: 64px 32px;
+}
+
+.subscribe-input {
+    margin-right: 16px;
+    margin-bottom: 0px !important;
 }
 
 
