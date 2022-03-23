@@ -165,7 +165,7 @@ p {
 
 .header-logo {
     content: url(images/Logo.svg);
-    height: 55px;
+    height: 45px;
 }
 
 .header-list {
@@ -534,7 +534,7 @@ footer {
 
 .footer-logo {
     content: url(images/Logo.svg);
-    height: 90px;
+    height: 70px;
 }
 
 .footer-icon {
@@ -830,6 +830,7 @@ td {
 
     .header-logo {
         content: url(images/Logo.svg);
+        height: 45px;
         z-index: 5;
     }
 
