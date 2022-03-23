@@ -278,7 +278,6 @@ p {
     display: grid;
     gap: 32px;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 32px 0;
 }
 
 
@@ -671,6 +670,14 @@ td {
         font-size: 48px;
         line-height: 52px;
     }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .catalog {
+        gap: 20px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -731,10 +738,6 @@ td {
         padding-right: 16px;
         padding-bottom: 0px;
         height: 100%;
-    }
-
-    h3 {
-        font-size: 16px;
     }
 
     section {
@@ -851,7 +854,13 @@ td {
         text-align: center;
     }
 
+    .feedback-area {
+        min-height: 200px;
+    }
 
+    .feedback-container {
+        grid-template-rows: none;
+    }
 
     /*--------------*/
     body.lock {
@@ -907,4 +916,22 @@ td {
     h4 {
         font-size: 14px;
     }
+
+}
+
+@media screen and (max-width:400px) {
+    h1 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .advantages-item {
+        height: 48px;
+        line-height: 24px;
+    }
+
+    .hero-button {
+        margin-right: 16px;
+    }
+    
 }
