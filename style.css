@@ -678,6 +678,10 @@ td {
         flex-direction: column;
     }
 
+    .subscribe-input {
+        margin-right: 0px;
+    }
+
     .header-item:not(:last-child) {
         margin-right: 0px;
     }
