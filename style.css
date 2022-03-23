@@ -573,10 +573,42 @@ footer {
     margin: 0 auto;
     margin-top: 100px;
     max-width: 600px;
-    
+
 }
-.input:not(:last-child){
+
+.input:not(:last-child) {
     margin-bottom: 16px;
+}
+
+
+/*---------------------Cart-------------------------------------*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.cart-table {
+    margin-top: 100px;
+}
+
+th {
+    padding: 15px 25px;
+    border: 0px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+td {
+    padding: 15px;
+
+}
+
+.table-head {
+    border-bottom: 4px solid #F1F1F1;
+
 }
 
 @media screen and (max-width:1199px) {
