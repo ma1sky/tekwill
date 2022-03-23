@@ -603,7 +603,7 @@ footer {
 }
 
 .delete-button:active {
-    color: #010A39;    
+    color: #010A39;
 }
 
 table {
@@ -934,5 +934,5 @@ td {
     .hero-button {
         margin-right: 16px;
     }
-    
+
 }
